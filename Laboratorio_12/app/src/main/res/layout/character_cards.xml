@@ -7,12 +7,12 @@
     <ImageView
         android:id="@+id/CharacterImage"
         android:layout_width="match_parent"
-        android:layout_height="120dp"
+        android:layout_height="@dimen/image"
         android:scaleType="centerCrop" />
 
     <TextView
         android:id="@+id/CharacterName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="18sp" />
+        android:textSize="@dimen/tamaño_texto" />
 </LinearLayout>

@@ -33,9 +33,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:numColumns="2"
-        android:horizontalSpacing="16dp"
-        android:verticalSpacing="16dp"
-        android:padding="16dp"
+        android:horizontalSpacing="@dimen/margen_16dp"
+        android:verticalSpacing="@dimen/margen_16dp"
+        android:padding="@dimen/margen_16dp"
         tools:context=".MainActivity" />
 
 </LinearLayout>
