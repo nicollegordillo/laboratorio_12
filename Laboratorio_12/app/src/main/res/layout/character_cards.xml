@@ -5,13 +5,13 @@
     android:padding="16dp">
 
     <ImageView
-        android:id="@+id/bookImage"
+        android:id="@+id/CharacterImage"
         android:layout_width="match_parent"
         android:layout_height="120dp"
         android:scaleType="centerCrop" />
 
     <TextView
-        android:id="@+id/bookTitle"
+        android:id="@+id/CharacterName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18sp" />
