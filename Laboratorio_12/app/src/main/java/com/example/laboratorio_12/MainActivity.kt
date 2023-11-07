@@ -24,6 +24,11 @@ class MainActivity : AppCompatActivity() {
             characters.add(Character("Harry Potter", R.drawable.harrypotter))
             characters.add(Character("Hermione Granger", R.drawable.hermionegranger))
             characters.add(Character("Ron Weasley", R.drawable.ronweasley))
+            characters.add(Character("Albus Dumbledore", R.drawable.albusdumbledore))
+            characters.add(Character("Draco Malfoy", R.drawable.dracomalfoy))
+            characters.add(Character("Luna Lovegood", R.drawable.lunalovegood))
+            characters.add(Character("Severus Snape", R.drawable.severussnape))
+            characters.add(Character("Tom Ryddle", R.drawable.tomryddle))
         } else {
             setContentView(R.layout.activity_main)
             val recyclerView = findViewById<RecyclerView>(R.id.characterRecyclerView)
@@ -34,6 +39,11 @@ class MainActivity : AppCompatActivity() {
             characters.add(Character("Harry Potter", R.drawable.harrypotter))
             characters.add(Character("Hermione Granger", R.drawable.hermionegranger))
             characters.add(Character("Ron Weasley", R.drawable.ronweasley))
+            characters.add(Character("Albus Dumbledore", R.drawable.albusdumbledore))
+            characters.add(Character("Draco Malfoy", R.drawable.dracomalfoy))
+            characters.add(Character("Luna Lovegood", R.drawable.lunalovegood))
+            characters.add(Character("Severus Snape", R.drawable.severussnape))
+            characters.add(Character("Tom Ryddle", R.drawable.tomryddle))
             searchEditText = findViewById(R.id.searchEditText)
             searchButton = findViewById(R.id.searchButton)
             searchButton.setOnClickListener {
