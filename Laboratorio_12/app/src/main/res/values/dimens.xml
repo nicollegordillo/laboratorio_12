@@ -2,6 +2,7 @@
 <resources>
     <dimen name="margen_10dp">10dp</dimen>
     <dimen name="margen_16dp">16dp</dimen>
-    <dimen name="tamaño_texto">18sp</dimen>
-    <dimen name="image">120dp</dimen>
+    <dimen name="margen_50dp">50dp</dimen>
+    <dimen name="tamaño_texto">16sp</dimen>
+    <dimen name="image">150dp</dimen>
 </resources>
